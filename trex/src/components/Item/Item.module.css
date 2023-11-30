@@ -1,0 +1,11 @@
+.classificationSegment{
+    display: flex;
+    justify-content: center;
+    padding: 15px !important;
+    
+    
+}
+.itemGroupWrapper{
+    overflow-y: scroll;
+    height: 70vh;
+}

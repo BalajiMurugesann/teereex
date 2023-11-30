@@ -1,0 +1,29 @@
+input {
+  accent-color: #dd1111;
+}
+.groupingContainer {
+  text-align: start;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 2px 2px rgba(218, 7, 7, 0.1);
+  min-width: 250px;
+}
+.groupingDivision {
+  margin-bottom: 1rem;
+}
+.selectionCriterion {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+.checkbox {
+  margin-right: 8px;
+  margin-left: 5px;
+}
+@media screen and (max-width: 992px) {
+  .groupingContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .groupingDivision {
+    margin-left: 1rem;
+  }
+}
